@@ -1,4 +1,4 @@
-DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -15,8 +15,47 @@ DOCTYPE html>
             <div class="nav-links">
                 <a href="#">Explore cars</a>
             <div>
+                
+<button onclick="document.getElementById('id01').style.display='block'">Login</button>
+
+
+<div id="id01" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'"
+class="close" title="Close Modal">&times;</span>
+
+  
+  <form class="modal-content animate" action="/action_page.php">
+    <div class="imgcontainer">
+      </div>
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+
+               
                 <a href="#">Our services</a>
+               
+
+
+
                  <a class="btn" href="#">About</a>
+
             </div>
             </div>
         </nav>
@@ -64,10 +103,54 @@ DOCTYPE html>
         
 
               <div class="AboutUs">
+                <button onclick="document.getElementById('id01').style.display='block'">AboutUs</button>
                 <h2>Welcome to AutoZone,where you make the best choice for your car. We are passionate about your desires and our mission is to not dissapoint you.AutoZone was founded in 2020 by E.G and R.G,that has started as a small company but has grown into achievements.
                     So we are beyond glad that you chose us to make your dream come true.With  us you can make a big change
                     in your life.
                 </h2>
+                <!DOCTYPE html>
+                <html lang="en">
+                <head>
+                    <meta charset="UTF-8">
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <title>About Us</title>
+
+                    <!-- You can link your CSS stylesheets here if you have any -->
+                </head>
+                <body>
+
+
+                    <header>
+                        
+                        <h1>About Us</h1>
+                    </header>
+                
+                    <section id="mission">
+                        <h2>Our Mission</h2>
+                        <p>Our mission is to make your goals happen.</p>
+                    </section>
+                
+                    <section id="history">
+                        <h2>Our History</h2>
+                        <p>A long and a great history .</p>
+                    </section>
+                
+                    <section id="team">
+                        <h2>Our Team</h2>
+                        <p>Qualified Staff.</p>
+                    </section>
+                
+                    <section id="values">
+                        <h2>Our Values</h2>
+                        <p>Our values are honesty and respect for people.</p>
+                    </section>
+            
+                
+                </body>
+                </html>
+                
+            
+
 
                 <h1 style="text-align:center">Contact Us</h1>
 
@@ -131,49 +214,9 @@ DOCTYPE html>
                 <a href="https://www.facebook.com/"> 
                 </a>
         </div>
-        <div class="form">
-            <div class="box">
-                
-                <input type="email" name="email" placeholder="Enter your email">
-<div id="email_error">Please enter your Email</div>
-
-                <input type="password" name="password" placeholder="Password">
-   <div id="password_error">Please fill up your Password</div>              
-        </div>
-        <script src="AutoZone.js"></script>
-        <div class="link">
-            <a href="#">Log In</a>
-
-        </div>
-
-        <div class="link1">
-            <a href="#">Forgot your password?</a>
-        </div>
-
-        <div class="link2">
-            <a href="#">Create New Account</a>
-        </div>  
+      
         
-        <div class="register-form">
-            <h2>Sign In Now!</h2>
-            <div class="box">
-                <label for="name">Name:</label>
-                <input type="name" name="register" placeholder="Enter your name">
-                <label for="email">Email:</label>
-                <input type="email" name="email" placeholder="Enter your email">
-                <label for="password">Password:</label>
-                <input type="password" name="password" placeholder="Choose password">
-                <label for="email">Confirm Password:</label>
-                <input type="confirm password" name="confirm" placeholder="Confirm password">
         
-
-                <div class="register-form1">
-                    <label for="email">Email:</label>
-        </div>
-        <div class="link3">
-            <button type="submit">Sign in</button>
-        </div>
-        </div>
       
 </body>
 </html>
