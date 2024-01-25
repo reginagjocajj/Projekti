@@ -16,8 +16,8 @@
                 <a href="#">Explore cars</a>
             <div>
                 
-<button onclick="document.getElementById('id01').style.display='block'">Login</button>
 
+ <!----Login code---->
 
 <div id="id01" class="modal">
   <span onclick="document.getElementById('id01').style.display='none'"
@@ -47,14 +47,75 @@ class="close" title="Close Modal">&times;</span>
     </div>
   </form>
 </div>
+<button onclick="document.getElementById('id01').style.display='block'">Login</button>
 
-               
-                <a href="#">Our services</a>
-               
+<!---Sign in code-->
+   
+<div id="id02" class="modal2">
+  <span onclick="document.getElementById('id02').style.display='none'"
+class="close" title="Close Modal">&times;</span>
 
+  
+  <form class="modal-content animate2" action="/action_page.php">
+    <div class="imgcontainer">
+      </div>
 
+    <div class="container2">
+      <label for="uname"><b>Name</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
 
-                 <a class="btn" href="#">About</a>
+      <label for="psw"><b>Surname</b></label>
+      <input type="Surname" placeholder="Surname" name="surname" required>
+
+      <label for="psw"><b>Email</b></label>
+      <input type="email" placeholder="Email" name="email" required>
+
+      <label for="psw"><b>EnterPasword</b></label>
+      <input type="enterpaswor" placeholder="EnterPassword" name="enterpsw" required>
+
+      <label for="psw"><b>ConfirmPasword</b></label>
+      <input type="ConfirmPasword" placeholder="ConfirmPasword"name="confirmpsw" required>
+
+      <button type="submit">SignIn</button>
+     
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+<button onclick="document.getElementById('id02').style.display='block'">SignIn</button>
+
+<!---About code---->
+
+                 
+                 <div id="id03" class="modal3">
+                    <span onclick="document.getElementById('id03').style.display='none'"
+                  class="close" title="Close Modal">&times;</span>
+                  
+                    
+                    <form class="modal-content animate2" action="/action_page.php">
+                      <div class="imgcontainer">
+                        </div>
+                  
+                      <h22>Helping people build trust, transform and grow. We as a company offer many services as well as many information about cars, so choose the best to drive quality. One of the best services are cars, then we'll have a lot of things that are connected to the car base, but for more connect to our website you'll find everything you need!
+                        Also swipe down the main page to learn more About us. </h22>
+                
+                     
+                       
+                      </div>
+                  
+                      <div class="container" style="background-color:#5e2828">
+                        
+                       
+                      </div>
+                    </form>
+                  </div>
+                  <button onclick="document.getElementById('id03').style.display='block'">AboutUs</button>
+ 
+                  
 
             </div>
             </div>
@@ -69,33 +130,33 @@ class="close" title="Close Modal">&times;</span>
         </div>
 
             <div class="BMW">
-            <h2>Our BMW Models</h2>
-            <img src="bmw_m5-19.jpg" width="250" height="150">
-            <img src="BMW-M5-xDrive (9).jpg" width="250" height="150">
+            <h2>Our BMW Models</h2>  <h7>     1.</h7>
+            <img src="bmw_m5-19.jpg" width="250" height="150">           <h8>     2.</h8>
+            <img src="BMW-M5-xDrive (9).jpg" width="250" height="150">     <h9>    3.</h9>
             <img src="1.jpg" width="250" height="150">
         
         
 
         <div class="MB">
-            <h2>Our Mercedes Benz Models</h2>
-            <img src="g class.jpeg" width="250" height="150">
-            <img src="e class.jpeg" width="250" height="150"> 
+            <h2>Our Mercedes Benz Models</h2> <h10>  1.</h10>
+            <img src="g class.jpeg" width="250" height="150">  <h11>2.</h11>
+            <img src="e class.jpeg" width="250" height="150"> <h12>3.</h12>
             <img src="c class.jpeg" width="250" height="150">
         
 
         <div class="audi">
-            <h2>Our Audi Models</h2>
-            <img src="audirs6.jpeg" width="250" height="150">
-            <img src="audiq8.jpg" width="250" height="150">
-            <img src="audi1.jpg" width="250" height="150">
+            <h2>Our Audi Models</h2>   <h13>1.</h13>
+            <img src="audirs6.jpeg" width="250" height="150"> <h14>2.</h14>
+            <img src="audiq8.jpg" width="250" height="150">  <h15>3.</h15>
+            <img src="audi1.jpg" width="250" height="150">  
         </div>
 
         <div class="LX">
-            <h2>Our Luxury Cars</h2>
-            <img src="Ferrari2.png" width="200" height="150">
-            <img src="Lambo2.jpg" width="200" height="150">
-            <img src="porsche3.jpg" width="200" height="150">
-            <img src="Rolls-Royce-Cullinan1.jpg" width="200" height="150">
+            <h2>Our Luxury Cars</h2>      <h17>1.</h17>
+            <img src="Ferrari2.png" width="200" height="150">  <h18>2.</h18>
+            <img src="Lambo2.jpg" width="200" height="150">   <h19>3.</h19>
+            <img src="porsche3.jpg" width="200" height="150">  <h20>4.</h20>
+            <img src="Rolls-Royce-Cullinan1.jpg" width="200" height="150">   <h21>5.</h21>
             <img src="Bentley2.jpg" width="200" height="150">
               
               <h1 style="text-align:center">Our Team</h1>
@@ -115,7 +176,7 @@ class="close" title="Close Modal">&times;</span>
                     <meta name="viewport" content="width=device-width, initial-scale=1.0">
                     <title>About Us</title>
 
-                    <!-- You can link your CSS stylesheets here if you have any -->
+                   
                 </head>
                 <body>
 
